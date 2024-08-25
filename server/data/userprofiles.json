@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "userId": 1,
+      "profilePicture": "https://example.com/images/john.jpg",
+      "bio": "Gaming enthusiast and adventure seeker.",
+      "socialLinks": {
+        "twitter": "https://twitter.com/johndoe",
+        "twitch": "https://twitch.tv/johndoe"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "profilePicture": "https://example.com/images/jane.jpg",
+      "bio": "Strategy game lover and content creator.",
+      "socialLinks": {
+        "instagram": "https://instagram.com/janesmith"
+      }
+    }
+  ]
+  

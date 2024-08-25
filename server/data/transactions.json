@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "userId": 1,
+      "orderId": 1,
+      "amount": 109.98,
+      "paymentMethod": "Credit Card",
+      "status": "Success",
+      "createdAt": "2024-08-05T12:10:00Z"
+    }
+  ]
+  

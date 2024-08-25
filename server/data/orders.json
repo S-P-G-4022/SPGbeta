@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "userId": 1,
+      "totalAmount": 109.98,
+      "status": "Completed",
+      "createdAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "totalAmount": 49.99,
+      "status": "Pending",
+      "createdAt": "2024-08-10T08:30:00Z"
+    }
+  ]
+  
