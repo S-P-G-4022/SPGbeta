@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "orderItemId": 1,
+    "key": "ABCDE-FGHIJ-KLMNO",
+    "isRedeemed": true
+  },
+  {
+    "id": 2,
+    "orderItemId": 2,
+    "key": "PQRST-UVWXY-Z1234",
+    "isRedeemed": false
+  }
+]

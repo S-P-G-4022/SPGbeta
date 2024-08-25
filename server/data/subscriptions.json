@@ -1,0 +1,11 @@
+[
+    {
+      "id": 1,
+      "userId": 1,
+      "planName": "Premium",
+      "startDate": "2024-07-01T00:00:00Z",
+      "endDate": "2025-07-01T00:00:00Z",
+      "status": "Active"
+    }
+  ]
+  

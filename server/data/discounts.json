@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "code": "SUMMER2024",
+      "description": "Summer sale 20% off.",
+      "discountPercentage": 20,
+      "validFrom": "2024-08-01T00:00:00Z",
+      "validUntil": "2024-08-31T23:59:59Z",
+      "isActive": true
+    }
+  ]
+  
