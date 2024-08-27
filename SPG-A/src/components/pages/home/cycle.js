@@ -14,7 +14,6 @@ function cycle() {
   return (
     <div className="w-full overflow-hidden">
       <div className="flex items-center justify-center bg-primary">
-        <h1 className="text-4xl font-bold text-gray ">Recomendations :</h1>
       </div>  
       
             <div className="flex animate-scroll">

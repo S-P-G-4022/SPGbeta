@@ -33,6 +33,10 @@ export const RenderRoutes = () => {
         }
         return (
              <div className="menu">
+                <div className="menuItem float-start">
+               <a href="/">
+             <img src='https://res.cloudinary.com/dc0gmzuud/image/upload/v1723639535/Capture_d_%C3%A9cran_2024-08-14_134446-removebg-preview_knjeri.png' height={15} width={150}></img>
+            </a></div>
                   { nav.map((r, i) => {
    
                        if (!r.isPrivate && r.isMenu) {
