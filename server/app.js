@@ -7,11 +7,11 @@ const port = 3001
 
 
 const gamesRouter = require("./Router/games.js")
+const userRouter = require("./Router/User.js")
 
 app.use(cors())
 
-
-
+app.use(express.json());
 
 
 
@@ -19,6 +19,7 @@ app.use(cors())
 
 
 app.use("/api/games",gamesRouter)
+app.use("/api/user",userRouter)
 
 
 
