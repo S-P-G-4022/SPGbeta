@@ -11,5 +11,5 @@ export const nav = [
      { path:     "/signIn",    name: "signIn",       element: <Login />,    isMenu: false,    isPrivate: false  },
      { path:     "/private",  name: "Private",     element: <Private />,    isMenu: true,     isPrivate: true  },
      { path:     "/account",  name: "Account",     element: <Account />,    isMenu: true,     isPrivate: true  },
-     { path:     "/signUp",  name: "signUp",      element: <Logup />,       isMenu: true,     isPrivate: false  },
+     { path:     "/signUp",  name: "signUp",      element: <Logup />,       isMenu: false,     isPrivate: false  },
 ]
