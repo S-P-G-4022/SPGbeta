@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const STEAM_API_KEY = 'F6725AF11B1271A83A242C1C2191FB08';
+
 
 // Fetch the list of all games
 async function fetchAllGames() {
