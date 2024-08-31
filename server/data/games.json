@@ -3,6 +3,9 @@
     "appid": 101,
     "names": "Fantasy Adventure",
     "developer": "Game Studio X",
+    "image":"https://img.freepik.com/free-photo/3d-fantasy-scene_23-2151127936.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1715990400&semt=ais_user",
+    "descriptionImage":["https://www.shutterstock.com/image-illustration/mockup-fantasy-rpg-moba-video-260nw-2198933895.jpg","https://www.shutterstock.com/image-illustration/mockup-fantasy-rpg-moba-video-260nw-2198933859.jpg","https://media.istockphoto.com/id/1265220754/video/mock-up-fantasy-rpg-moba-video-game-gameplay-with-role-playing-personage-doing-animated-magic.jpg?s=640x640&k=20&c=JjVK2UZDb-WdjX1F_vkQ07HBO3Z5uKiFGjApN2lG_F0="],
+
     "publisher": "Publisher Y",
     "price": 49.99,
     "releaseDate": "2024-06-15T00:00:00Z",
@@ -13,6 +16,8 @@
     "appid": 102,
     "names": "Space Conquest",
     "developer": "Studio Z",
+    "image":"https://i.ytimg.com/vi/OrAmwAw423c/sddefault.jpg",
+    "descriptionImage":["https://m.media-amazon.com/images/I/611B9f0loQL.png","https://m.media-amazon.com/images/I/6129eQS5spL.png","https://m.media-amazon.com/images/I/71ShZSIBlML.jpg"],
     "publisher": "Publisher A",
     "price": 59.99,
     "releaseDate": "2023-11-10T00:00:00Z",
