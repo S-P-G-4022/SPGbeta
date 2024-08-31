@@ -1,6 +1,5 @@
 [
     {
-      "id": 1,
       "userId": 1,
       "profilePicture": "https://example.com/images/john.jpg",
       "bio": "Gaming enthusiast and adventure seeker.",
@@ -10,7 +9,6 @@
       }
     },
     {
-      "id": 2,
       "userId": 2,
       "profilePicture": "https://example.com/images/jane.jpg",
       "bio": "Strategy game lover and content creator.",

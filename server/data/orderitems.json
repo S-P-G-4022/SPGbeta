@@ -1,18 +1,15 @@
 [
     {
-      "id": 1,
       "orderId": 1,
       "gameId": 1,
       "quantity": 1
     },
     {
-      "id": 2,
       "orderId": 1,
       "gameId": 2,
       "quantity": 1
     },
     {
-      "id": 3,
       "orderId": 2,
       "gameId": 1,
       "quantity": 1

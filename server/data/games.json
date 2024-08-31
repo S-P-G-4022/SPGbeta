@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "appid": 101,
     "names": "Fantasy Adventure",
     "developer": "Game Studio X",
@@ -11,7 +10,6 @@
     "negativeReviews": 20
   },
   {
-    "id": 2,
     "appid": 102,
     "names": "Space Conquest",
     "developer": "Studio Z",
@@ -22,7 +20,6 @@
     "negativeReviews": 15
   },
   {
-    "id": 3,
     "appid": 103,
     "names": "Mystic Journey",
     "developer": "Epic Games",
@@ -33,7 +30,6 @@
     "negativeReviews": 10
   },
   {
-    "id": 4,
     "appid": 104,
     "names": "Dungeon Escape",
     "developer": "Indie Devs",
@@ -44,7 +40,6 @@
     "negativeReviews": 5
   },
   {
-    "id": 5,
     "appid": 105,
     "names": "Galactic Wars",
     "developer": "Space Creators",
@@ -55,7 +50,6 @@
     "negativeReviews": 25
   },
   {
-    "id": 6,
     "appid": 106,
     "names": "Kingdom Builder",
     "developer": "Strategists Inc.",
@@ -66,7 +60,6 @@
     "negativeReviews": 30
   },
   {
-    "id": 7,
     "appid": 107,
     "names": "Racing Legends",
     "developer": "Speed Studio",
@@ -77,7 +70,6 @@
     "negativeReviews": 45
   },
   {
-    "id": 8,
     "appid": 108,
     "names": "Survival Island",
     "developer": "Island Devs",
@@ -88,7 +80,6 @@
     "negativeReviews": 20
   },
   {
-    "id": 9,
     "appid": 109,
     "names": "Cyber City",
     "developer": "Neon Studios",
@@ -99,7 +90,6 @@
     "negativeReviews": 50
   },
   {
-    "id": 10,
     "appid": 110,
     "names": "Warrior's Quest",
     "developer": "Battle Forge",
@@ -110,7 +100,6 @@
     "negativeReviews": 15
   },
   {
-    "id": 11,
     "appid": 111,
     "names": "Puzzle Masters",
     "developer": "Brain Teasers Inc.",
@@ -121,7 +110,6 @@
     "negativeReviews": 12
   },
   {
-    "id": 12,
     "appid": 112,
     "names": "Stealth Agent",
     "developer": "Shadow Studios",
@@ -132,7 +120,6 @@
     "negativeReviews": 35
   },
   {
-    "id": 13,
     "appid": 113,
     "names": "Horror Mansion",
     "developer": "Scare Games",
@@ -143,7 +130,6 @@
     "negativeReviews": 25
   },
   {
-    "id": 14,
     "appid": 114,
     "names": "Sports Champions",
     "developer": "Athlete Games",
@@ -154,7 +140,6 @@
     "negativeReviews": 20
   },
   {
-    "id": 15,
     "appid": 115,
     "names": "Alien Invasion",
     "developer": "Sci-Fi Creators",
@@ -165,7 +150,6 @@
     "negativeReviews": 28
   },
   {
-    "id": 16,
     "appid": 116,
     "names": "Magic Academy",
     "developer": "Wizard Studios",
@@ -176,7 +160,6 @@
     "negativeReviews": 15
   },
   {
-    "id": 17,
     "appid": 117,
     "names": "City Builder",
     "developer": "Urban Architects",
@@ -187,7 +170,6 @@
     "negativeReviews": 40
   },
   {
-    "id": 18,
     "appid": 118,
     "names": "Zombie Survival",
     "developer": "Apocalypse Games",
@@ -198,7 +180,6 @@
     "negativeReviews": 50
   },
   {
-    "id": 19,
     "appid": 119,
     "names": "Hero's Legacy",
     "developer": "Epic Legends",
@@ -209,7 +190,6 @@
     "negativeReviews": 22
   },
   {
-    "id": 20,
     "appid": 120,
     "names": "Tactical Warfare",
     "developer": "Strategy Kings",
@@ -220,7 +200,6 @@
     "negativeReviews": 18
   },
     {
-      "id": 21,
       "appid": 121,
       "names": "Underwater Exploration",
       "developer": "Oceanic Studios",
@@ -231,7 +210,6 @@
       "negativeReviews": 12
     },
     {
-      "id": 22,
       "appid": 122,
       "names": "Medieval Kingdoms",
       "developer": "Castle Creations",
@@ -242,7 +220,6 @@
       "negativeReviews": 17
     },
     {
-      "id": 23,
       "appid": 123,
       "names": "Space Colony",
       "developer": "Galactic Studios",
@@ -253,7 +230,6 @@
       "negativeReviews": 30
     },
     {
-      "id": 24,
       "appid": 124,
       "names": "Island Adventure",
       "developer": "Tropical Games",
@@ -264,7 +240,6 @@
       "negativeReviews": 15
     },
     {
-      "id": 25,
       "appid": 125,
       "names": "Ancient Empires",
       "developer": "History Devs",
@@ -275,7 +250,6 @@
       "negativeReviews": 28
     },
     {
-      "id": 26,
       "appid": 126,
       "names": "Mystery Case Files",
       "developer": "Detective Studios",
@@ -286,7 +260,6 @@
       "negativeReviews": 25
     },
     {
-      "id": 27,
       "appid": 127,
       "names": "Futuristic Racing",
       "developer": "Hyperdrive Games",
@@ -297,7 +270,6 @@
       "negativeReviews": 20
     },
     {
-      "id": 28,
       "appid": 128,
       "names": "Fantasy Realms",
       "developer": "Magic Worlds",
@@ -308,7 +280,6 @@
       "negativeReviews": 16
     },
     {
-      "id": 29,
       "appid": 129,
       "names": "Battle Royale",
       "developer": "Arena Studios",
@@ -319,7 +290,6 @@
       "negativeReviews": 55
     },
     {
-      "id": 30,
       "appid": 130,
       "names": "Western Frontier",
       "developer": "Cowboy Games",
@@ -330,7 +300,6 @@
       "negativeReviews": 10
     },
     {
-      "id": 31,
       "appid": 131,
       "names": "Alien Encounters",
       "developer": "Extraterrestrial Studios",
@@ -341,7 +310,6 @@
       "negativeReviews": 35
     },
     {
-      "id": 32,
       "appid": 132,
       "names": "Robot Rebellion",
       "developer": "Cybernetics Labs",
@@ -352,7 +320,6 @@
       "negativeReviews": 18
     },
     {
-      "id": 33,
       "appid": 133,
       "names": "Safari Adventure",
       "developer": "Wildlife Studios",
@@ -363,7 +330,6 @@
       "negativeReviews": 12
     },
     {
-      "id": 34,
       "appid": 134,
       "names": "Cyber Heist",
       "developer": "Neon Games",
@@ -374,7 +340,6 @@
       "negativeReviews": 20
     },
     {
-      "id": 35,
       "appid": 135,
       "names": "Fantasy RPG",
       "developer": "Epic Tales",
@@ -385,7 +350,6 @@
       "negativeReviews": 45
     },
     {
-      "id": 36,
       "appid": 136,
       "names": "Sky Pirates",
       "developer": "Airship Studios",
@@ -396,7 +360,6 @@
       "negativeReviews": 22
     },
     {
-      "id": 37,
       "appid": 137,
       "names": "Haunted Forest",
       "developer": "Spooky Games",
@@ -407,7 +370,6 @@
       "negativeReviews": 10
     },
     {
-      "id": 38,
       "appid": 138,
       "names": "Castle Siege",
       "developer": "Defense Studios",
@@ -418,7 +380,6 @@
       "negativeReviews": 25
     },
     {
-      "id": 39,
       "appid": 139,
       "names": "Pixel Adventure",
       "developer": "Retro Studios",
@@ -429,7 +390,6 @@
       "negativeReviews": 8
     },
     {
-      "id": 40,
       "appid": 140,
       "names": "Space Traders",
       "developer": "Galactic Markets",
