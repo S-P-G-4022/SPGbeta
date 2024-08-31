@@ -15,7 +15,7 @@ function Searchedcomponent() {
         }} key={index} className="p-4 bg-white  shadow-md rounded-lg">
           <img
           
-            src="https://cdn.mos.cms.futurecdn.net/FCY9PcBrhN3pfoNV7FfFTQ-650-80.jpg.webp" 
+            src={game?.image} 
             alt={game?.name}
            className='h-[400px] w-[400px]'
       
