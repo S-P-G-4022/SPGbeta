@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-const {fetchAllGames,fetchGameDetails}=require("../controller/games.js")
+const {fetchAllGames,fetchGameDetails,fetchGames,oneGame}=require("../controller/games.js")
 
-router.get("/allGames",fetchAllGames)
+router.post("/allGames",fetchGames)
+router.get("/oneGame/:id",oneGame)
 router.get("/oneGameDetail",fetchGameDetails,)
 
 

@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import { AuthData } from "../../auth/AuthWrapper";
 import { nav } from "./navigation";
+import Search from "../pages/home/Search";
 
 
 export const RenderRoutes = () => {
@@ -35,8 +36,12 @@ export const RenderRoutes = () => {
              <div className="menu">
                 <div className="menuItem float-start">
                <a href="/">
+            
              <img src='https://res.cloudinary.com/dc0gmzuud/image/upload/v1723639535/Capture_d_%C3%A9cran_2024-08-14_134446-removebg-preview_knjeri.png' height={15} width={150}></img>
-            </a></div>
+            </a>
+
+            </div>
+            <div className="menuItem"><Search/></div>
                   { nav.map((r, i) => {
    
                        if (!r.isPrivate && r.isMenu) {

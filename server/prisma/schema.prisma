@@ -32,22 +32,23 @@ model User {
 }
 
 model Game {
-  id              Int            @id @default(autoincrement())
-  appid           Int
-  names           String
-  developer       String
-  publisher       String
-  price           Float
-  releaseDate     DateTime
-  categories      Category[]     @relation("GameCategories")
-  tags            Tag[]          @relation("GameTags")
-  orderItems      OrderItems[]
-  positiveReviews Int
-  negativeReviews Int
-  favorisLists    FavorisList[]
-  wishlists       Wishlist[]
-  ShoppingCart    ShoppingCart[]
-  Review          Review[]
+  id               Int            @id @default(autoincrement())
+  appid            Int
+  names            String
+  developer        String
+  publisher        String
+  price            Float
+  image            String
+  descriptionImage String[]
+  releaseDate      DateTime
+  categories       Category[]     @relation("GameCategories")
+  orderItems       OrderItems[]
+  positiveReviews  Int
+  negativeReviews  Int
+  favorisLists     FavorisList[]
+  wishlists        Wishlist[]
+  ShoppingCart     ShoppingCart[]
+  Review           Review[]
 }
 
 model Order {
