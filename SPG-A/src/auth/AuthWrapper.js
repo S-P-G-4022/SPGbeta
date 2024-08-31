@@ -18,7 +18,9 @@ export const AuthWrapper = () => {
         password: password,
       });
       if (res.data.message === "Login succeeded") {
-        setUser({ name: res.data.loggedUser.FullName, isAuthenticated: true });
+        setUser({ name: res.data.token, isAuthenticated: true });
+       console.log(res.data)
+        localStorage.setItem('token',res.data.token)
       } 
       return res.data;
     } catch (e) {
