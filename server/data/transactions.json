@@ -1,7 +1,6 @@
 [
     {
-      "id": 1,
-      "userId": 1,
+      "userId": 4,
       "orderId": 1,
       "amount": 109.98,
       "paymentMethod": "Credit Card",

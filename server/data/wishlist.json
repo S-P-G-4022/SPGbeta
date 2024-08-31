@@ -1,11 +1,9 @@
 [
     {
-      "id": 1,
       "userId": 1,
       "gameId": 2
     },
     {
-      "id": 2,
       "userId": 2,
       "gameId": 1
     }
