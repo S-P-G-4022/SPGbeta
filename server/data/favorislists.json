@@ -1,21 +1,13 @@
 [
     {
       
-      "userId":4,
+      "userId":1,
       "gameId": 1
     },
     {
       
-      "userId": 4,
+      "userId": 1,
       "gameId": 2
-    },
-    {
-      "userId": 4,
-      "gameId":3
-    },
-    {
-      "userId": 4,
-      "gameId":4
     }
   ]
   

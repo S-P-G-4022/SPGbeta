@@ -98,11 +98,7 @@ model Category {
   games       Game[]  @relation("GameCategories")
 }
 
-model Tag {
-  id    Int    @id @default(autoincrement())
-  name  String
-  games Game[] @relation("GameTags")
-}
+
 
 model Wishlist {
   id     Int  @id @default(autoincrement())
