@@ -1,7 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faLock } from '@fortawesome/free-solid-svg-icons';
-import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import Footer from './home/Footer';
@@ -9,22 +8,29 @@ import { AuthData } from '../../auth/AuthWrapper';
 import { useReducer } from 'react';
 export default function Login() {
      const navigate = useNavigate();
-     const [ error, setError ] = useState("An error occurred")
-
      const { login } = AuthData();
-     const [ formData, setFormData ] = useReducer((formData, newItem) => { return ( {...formData, ...newItem} )}, {userName: "", password: ""})
+     const [ formData, setFormData ] = useReducer((formData, newItem) => { return ( {...formData, ...newItem} )}, {email: "", password: ""})
      const [ errorMessage, setErrorMessage ] = useState(null)
      
      const doLogin = async () => {
-
           try {
                
-               await login(formData.userName, formData.password)
-               navigate("/account")
+             let res=  await login(formData.email, formData.password)
+             console.log(res);
+             
+               if (res.message==='Login succeeded') {
+                 navigate("/")
+               }
+                else{
+                  setErrorMessage(res.response.data)
 
+                }
+ 
+                
+                
           } catch (error) {
-
-               setErrorMessage(error)
+            console.log(error);
+           
                
           }
           
@@ -43,7 +49,6 @@ export default function Login() {
             <h2 className="text-4xl font-bold text-gray-800 mb-2">Ready to start your success story?</h2>
             <p className="text-gray-600 font-semibold mb-4">Please enter your email address and password to proceed</p>
             <form className="space-y-4">
-              {error && <span className="error-message mt-8 flex items-center justify-center bg-white p-2 w-68 text-sm font-bold text-[#fff] rounded-lg">{error}</span>}
               <div>
                 <label htmlFor="Email" className="block font-semibold text-gray-700">Email</label>
                 <div className="flex border mt-4 p-2.5 rounded-lg">
@@ -53,7 +58,7 @@ export default function Login() {
                     className="w-full ml-2 outline-none"
                     placeholder="Enter your email address"
                     type="text"
-                    value={formData.userName} onChange={(e) => setFormData({userName: e.target.value}) } 
+                    value={formData.email} onChange={(e) => setFormData({email: e.target.value}) } 
                     required
                   />
                 </div>

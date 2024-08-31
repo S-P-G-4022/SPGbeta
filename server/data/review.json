@@ -1,6 +1,5 @@
 [
     {
-      "id": 1,
       "userId": 1,
       "gameId": 1,
       "rating": 5,
@@ -8,7 +7,6 @@
       "createdAt": "2024-08-06T09:00:00Z"
     },
     {
-      "id": 2,
       "userId": 2,
       "gameId": 2,
       "rating": 4,
