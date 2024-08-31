@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser ,faCartShopping ,faHeart,faHandHoldingHeart,faGear,faCircleInfo} from "@fortawesome/free-solid-svg-icons";
-import axios from "axios";
+import axios from "../../auth/axios";
 const Sidebar = () => {
   return (
     <div className="w-1/4 h-screen bg-primary text-white flex float-left">
@@ -52,20 +52,33 @@ const Sidebar = () => {
 const ProfileContent = () => {
      const [User,setUser]=useState()
      async  function  getUser() {
-          let {data}=await axios.get('http://localhost:3001/api/user/getUser')
-          setUser(data)
+      try {
+        let {data}= await axios.get('http://localhost:3000/api/user/getUser')
+        console.log(data);
+        
+        setUser(data);
+      } catch (error) {
+        console.log(error);
+      }
+         
+          
      }
      useEffect(function () {
-          // getUser() 
+          getUser()
      },[])
   return (
     <div className="w-3/4 p-6 bg-gray-100">
       <h2 className="text-2xl font-bold mb-6">Overview</h2>
 
       <div className="bg-white p-6 rounded-lg shadow-md mb-6">
+      <div class="flex justify-end">
+  <img src={User?.userProfile.profilePicture} alt="Image" class="rounded-full w-20 h-20 object-cover"/>
+</div>
         <div className="flex items-center justify-between">
+       
           <div>
             <h3 className="text-xl font-bold">PROFILE</h3>
+            {User?.name}
             <p className="text-gray-600">Complete your profile (33%)</p>
           </div>
           <div className="text-right">
@@ -75,8 +88,8 @@ const ProfileContent = () => {
           </div>
         </div>
         <div className="mt-4">
-          <p className="font-bold">enebian_66b9fba2f2df</p>
-          <p>adem11.abderrazek@gmail.com</p>
+          <p className="font-bold">user email</p>
+          <p>{User?.email}</p>
         </div>
         <div className="mt-6">
           <div className="relative pt-1">
